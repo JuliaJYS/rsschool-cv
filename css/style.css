@@ -1,3 +1,107 @@
+body {
+  /* font-family: "Bacasime Antique", serif; */
+  font-family: "Heebo", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.header-li {
+  padding: 25px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.header-link:hover {
+  color: #f0997d;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.container-left {
+  padding: 50px;
+}
+
 h1 {
-  color: grey;
+  color: #000000;
+  font-size: 42px;
+}
+h2 {
+  color: #f0997d;
+}
+p {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.container-about-right_awa {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.container-about-left {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  width: calc(80% - 20px);
+}
+.margin100 {
+  margin: auto 100px;
+}
+.margin70 {
+  margin: auto 70px;
+}
+.list {
+  list-style: none;
+}
+.footer {
+  min-height: 50px;
+  background-color: #f0997d;
+  color: #000000;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+.git {
+  font-size: 16px;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+.git:hover {
+  color: #ffffff;
+}
+
+.rss-logo {
+  width: 121px;
+  height: 45px;
+  background-image: url(/assets/rs_school_js.svg);
 }
